@@ -10,36 +10,12 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>05F144CBC674F52097E583450B91DEC7</key>
+		<key>012EDA9075099291EB92B5BB85C2427C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>47AFCDCEF4BEE77B7CD48C3B8FEF3E0A</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>TTTDemo.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>077E76CA3B416F472D8A532221DFBF03</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5FCA447950AF15C2D8B087F45F355BE3</string>
-				<string>97D30C8143435C31B095C8598CB2CEA3</string>
-				<string>6AD3F729562482609414F0EF38408122</string>
-				<string>60FC6A5F673977E4EA47ECBEC6BC63B4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Weixin</string>
-			<key>path</key>
-			<string>Weixin</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>0788115A3B5CC7815C1837651F7B4F0E</key>
 		<dict>
@@ -149,10 +125,23 @@
 			<key>targetProxy</key>
 			<string>1A176C9310BBF6E9D12A8B98F4FB974A</string>
 		</dict>
+		<key>111B3321402B4B11B7D6D5D7876F71D0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E0CF203814415D37AA0C8AADE2243ACF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>12084A3CEDA550654A471285C0A416D9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>44AA729CFD5FB993E02D8CA545F32F9A</string>
+			<string>9AC05AE2B2BA199B08FE6A3DDB013905</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -162,13 +151,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>121604850E84D0C529590DE522B96492</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FCA447950AF15C2D8B087F45F355BE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>122DA2E5084A4393C29BE363C764795C</key>
 		<dict>
@@ -195,19 +177,6 @@
 			<string>D477E5217F79F629F39FD6EAC951549D</string>
 			<key>remoteInfo</key>
 			<string>TTTDemo</string>
-		</dict>
-		<key>15F2D46AB18C55EEC4024F904F0A390D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TTTDemo-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>16856202FEEA96B7251911B1B740ABE8</key>
 		<dict>
@@ -296,7 +265,7 @@
 		<key>24EE8499216C448FC3D4F7508EAA3100</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>05F144CBC674F52097E583450B91DEC7</string>
+			<string>46E66CF1DAD8187FDDAB12E1F56F7502</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CONFIGURATION_BUILD_DIR</key>
@@ -324,24 +293,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>2AF4969D0EB4F8597117563B301D3DFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CEDDD15B770AF0307167F8DEC4232FCD</string>
-				<string>05F144CBC674F52097E583450B91DEC7</string>
-				<string>6CB2591A387DE8556C0B02A349F60130</string>
-				<string>15F2D46AB18C55EEC4024F904F0A390D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/TTTDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2AFA4507A025734946C10A5790FB7373</key>
 		<dict>
@@ -420,19 +371,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>36342B7B448CC351531CA486B0BFC36E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D5CADFAE13ED3C734919F27C3EFBA28D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>394129511730D8E984B66915E9166706</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -443,6 +381,19 @@
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-TTTDemo_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E48D03C77E8006278E2DAAA67A4F62B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WXApi.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -459,16 +410,29 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>44AA729CFD5FB993E02D8CA545F32F9A</key>
+		<key>46E66CF1DAD8187FDDAB12E1F56F7502</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>MyDemoClass.h</string>
+			<string>TTTDemo.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47AFCDCEF4BEE77B7CD48C3B8FEF3E0A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MyDemoClass.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -506,23 +470,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5257E7D4B91624259E23DC256DAF2F5E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>44AA729CFD5FB993E02D8CA545F32F9A</string>
-				<string>D16B11BE870FE87B83FD0216AE03DD21</string>
-				<string>077E76CA3B416F472D8A532221DFBF03</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>54D85350D08F6569512CA4CA18B463E5</key>
 		<dict>
 			<key>isa</key>
@@ -535,6 +482,17 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>551866170E5F125B9D9C81FB0B69DCC3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>disclosure_open.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>55984A7DC0CD19DAE4B909CF19F12DD3</key>
 		<dict>
@@ -589,6 +547,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>57EC21ABB3CDB85853024D1E097731C9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D1A92D6052F6EF20DE6D89602C844B21</string>
+				<string>3E48D03C77E8006278E2DAAA67A4F62B</string>
+				<string>C7BBAA67B37F9A4C1FE71AE5FDA48C6E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Weixin</string>
+			<key>path</key>
+			<string>Weixin</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5DF1E262D8D940F82742F0EBCE8DCE5B</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -607,7 +582,7 @@
 		<key>5F0FCC1FFCD426B676E8B4B4D10A9A65</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6AD3F729562482609414F0EF38408122</string>
+			<string>3E48D03C77E8006278E2DAAA67A4F62B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -617,32 +592,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>5FCA447950AF15C2D8B087F45F355BE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>path</key>
-			<string>libWeChatSDK.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60FC6A5F673977E4EA47ECBEC6BC63B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WXApiObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>648E51F6EEA8249C3A0A499BC0519867</key>
 		<dict>
@@ -703,29 +652,21 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>6AD3F729562482609414F0EF38408122</key>
+		<key>73944625E996A2582EAF42A9E17D40B1</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>111B3321402B4B11B7D6D5D7876F71D0</string>
+				<string>A063CB9E4B67889335F864D95BD17A0C</string>
+				<string>E5AE52CBCA6B9E365E25D9CA7F0E6E99</string>
+				<string>8C0FF3FB6E38834899CB26C4D9F9C605</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TTTDemo</string>
 			<key>path</key>
-			<string>WXApi.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CB2591A387DE8556C0B02A349F60130</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TTTDemo-dummy.m</string>
+			<string>../..</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -768,32 +709,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.bundle</string>
 		</dict>
-		<key>78812AB70ED287DD5769A39CD6F89F7C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5257E7D4B91624259E23DC256DAF2F5E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TTTDemo</string>
-			<key>path</key>
-			<string>TTTDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AABA4E890535F16E920653A173DF7C5</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
@@ -832,13 +747,6 @@
 			<string>6ABA97C780A83AB09B1A21F34F323748</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>8AA0B1E282AAA9CAE0CFA27AAB1CF897</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D16B11BE870FE87B83FD0216AE03DD21</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>8BC7DE7FE4FCCC64646233CA21955ACD</key>
 		<dict>
@@ -880,6 +788,21 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>8C0FF3FB6E38834899CB26C4D9F9C605</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>968B2AF645EB718B52FCD50457CB2EE0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TTTDemo</string>
+			<key>path</key>
+			<string>TTTDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>8C2B0683EA12773D09CB8A2A8E3DA811</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -890,6 +813,22 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-TTTDemo_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CE0C89ABCCD79DC7F98D6F57D5440BC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>551866170E5F125B9D9C81FB0B69DCC3</string>
+				<string>92BE0808571387B23BE390739A41EACE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Assets</string>
+			<key>path</key>
+			<string>Assets</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -933,9 +872,20 @@
 		<key>9183FA999C36AC2237DE835232229C5B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FA84B51C69F7D670F28FC4FB412B68E3</string>
+			<string>551866170E5F125B9D9C81FB0B69DCC3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>92BE0808571387B23BE390739A41EACE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>yingwu@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
@@ -956,28 +906,27 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>96ABDD5ADC6DA4BB5ED257BC27A61AF6</key>
+		<key>968B2AF645EB718B52FCD50457CB2EE0</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>7AABA4E890535F16E920653A173DF7C5</string>
-				<string>36342B7B448CC351531CA486B0BFC36E</string>
-				<string>2AF4969D0EB4F8597117563B301D3DFD</string>
-				<string>78812AB70ED287DD5769A39CD6F89F7C</string>
+				<string>9AC05AE2B2BA199B08FE6A3DDB013905</string>
+				<string>47AFCDCEF4BEE77B7CD48C3B8FEF3E0A</string>
+				<string>57EC21ABB3CDB85853024D1E097731C9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>TTTDemo</string>
+			<string>Classes</string>
 			<key>path</key>
-			<string>../..</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>96EA180421B8160005032F50F10BEF72</key>
 		<dict>
 			<key>fileRef</key>
-			<string>97D30C8143435C31B095C8598CB2CEA3</string>
+			<string>D1A92D6052F6EF20DE6D89602C844B21</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -987,19 +936,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>97D30C8143435C31B095C8598CB2CEA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WechatAuthSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9A108CCF5ACF0FF60AAF66E8F9C4DE58</key>
 		<dict>
@@ -1015,10 +951,23 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>9AC05AE2B2BA199B08FE6A3DDB013905</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MyDemoClass.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9BE361917520D326A2626FFF69CD7CBC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>05F144CBC674F52097E583450B91DEC7</string>
+			<string>46E66CF1DAD8187FDDAB12E1F56F7502</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1076,6 +1025,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A063CB9E4B67889335F864D95BD17A0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EB78F10360E5376B471099734615C977</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A45E7963C40266EDD2C25693FC14B77A</key>
 		<dict>
 			<key>fileRef</key>
@@ -1104,20 +1066,18 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>B060A6456445F396EC8A2A8037B3C9C1</key>
+		<key>B09D3C6DD377955248F39854D7081C8A</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>121604850E84D0C529590DE522B96492</string>
-				<string>8AA0B1E282AAA9CAE0CFA27AAB1CF897</string>
-				<string>D74E880A285036F76C6D1D5B7C6C306F</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TTTDemo-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B1EB6139A31FD5F8771947C64AF01534</key>
 		<dict>
@@ -1156,14 +1116,16 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C5496063B642096F246813084F462448</key>
+		<key>C7BBAA67B37F9A4C1FE71AE5FDA48C6E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>yingwu@2x.png</string>
+			<string>WXApiObject.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1185,7 +1147,7 @@
 		<key>CBD55A8A5E15306931AC7C285D531DF7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>60FC6A5F673977E4EA47ECBEC6BC63B4</string>
+			<string>C7BBAA67B37F9A4C1FE71AE5FDA48C6E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1216,29 +1178,16 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>CEDDD15B770AF0307167F8DEC4232FCD</key>
+		<key>D1A92D6052F6EF20DE6D89602C844B21</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>ResourceBundle-TTTDemoUI-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D16B11BE870FE87B83FD0216AE03DD21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MyDemoClass.m</string>
+			<string>WechatAuthSDK.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1367,7 +1316,7 @@
 			<string>9A108CCF5ACF0FF60AAF66E8F9C4DE58</string>
 			<key>buildPhases</key>
 			<array>
-				<string>B060A6456445F396EC8A2A8037B3C9C1</string>
+				<string>DDAEBA07FD53BE5F08AAF4D7B5AC5735</string>
 				<string>E88924FF6D3717AE73FAFE6DF0A74E50</string>
 				<string>DDC68EC05CA867EF95D1D0B8CC542638</string>
 			</array>
@@ -1388,25 +1337,10 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>D5CADFAE13ED3C734919F27C3EFBA28D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DFE964C737C72210030E40DE1C71F648</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TTTDemo</string>
-			<key>path</key>
-			<string>TTTDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D64A6D77E746265636506C266C7887F4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C5496063B642096F246813084F462448</string>
+			<string>92BE0808571387B23BE390739A41EACE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1436,12 +1370,18 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>D74E880A285036F76C6D1D5B7C6C306F</key>
+		<key>D7A0F02CD61F00733BD105A73F99EBBB</key>
 		<dict>
-			<key>fileRef</key>
-			<string>6CB2591A387DE8556C0B02A349F60130</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>ResourceBundle-TTTDemoUI-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D96FDC976142DD7C33EFA7DEFD2852A2</key>
 		<dict>
@@ -1486,7 +1426,7 @@
 		<key>DD90253B9E68BFA584FE028F0A6657AB</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>05F144CBC674F52097E583450B91DEC7</string>
+			<string>46E66CF1DAD8187FDDAB12E1F56F7502</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CONFIGURATION_BUILD_DIR</key>
@@ -1515,6 +1455,20 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>DDAEBA07FD53BE5F08AAF4D7B5AC5735</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012EDA9075099291EB92B5BB85C2427C</string>
+				<string>F03D49169B0C0F0E61804D8FF68A91DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>DDC68EC05CA867EF95D1D0B8CC542638</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1531,19 +1485,36 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DFE964C737C72210030E40DE1C71F648</key>
+		<key>E0CF203814415D37AA0C8AADE2243ACF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libWeChatSDK.a</string>
+			<key>path</key>
+			<string>TTTDemo/Classes/Weixin/libWeChatSDK.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5AE52CBCA6B9E365E25D9CA7F0E6E99</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>FA84B51C69F7D670F28FC4FB412B68E3</string>
-				<string>C5496063B642096F246813084F462448</string>
+				<string>D7A0F02CD61F00733BD105A73F99EBBB</string>
+				<string>46E66CF1DAD8187FDDAB12E1F56F7502</string>
+				<string>B09D3C6DD377955248F39854D7081C8A</string>
+				<string>FBEB27798CAC796FC1D0ACC9ABC9BA06</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Assets</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Assets</string>
+			<string>Example/Pods/Target Support Files/TTTDemo</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1575,11 +1546,26 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>EB78F10360E5376B471099734615C977</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CE0C89ABCCD79DC7F98D6F57D5440BC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TTTDemo</string>
+			<key>path</key>
+			<string>TTTDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>EBCD9177EB5710BC269CB8E9B6D428DF</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>96ABDD5ADC6DA4BB5ED257BC27A61AF6</string>
+				<string>73944625E996A2582EAF42A9E17D40B1</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1587,6 +1573,13 @@
 			<string>Development Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F03D49169B0C0F0E61804D8FF68A91DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B09D3C6DD377955248F39854D7081C8A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F14AA756226678FB5111C1133C7FC8F9</key>
 		<dict>
@@ -1655,21 +1648,23 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>FA84B51C69F7D670F28FC4FB412B68E3</key>
+		<key>FBEB27798CAC796FC1D0ACC9ABC9BA06</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>disclosure_open.png</string>
+			<string>TTTDemo-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FE6112D92DFB4E516B853710023EE2D9</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>05F144CBC674F52097E583450B91DEC7</string>
+			<string>46E66CF1DAD8187FDDAB12E1F56F7502</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>

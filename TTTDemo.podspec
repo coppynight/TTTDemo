@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TTTDemo/Classes/**/*'
+  s.source_files = 'TTTDemo/Classes/**/*.{h,m}'
   s.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.resource_bundles = {
    'TTTDemoUI' => ['TTTDemo/Assets/*.png']

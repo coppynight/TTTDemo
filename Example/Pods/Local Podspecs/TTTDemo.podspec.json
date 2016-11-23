@@ -1,9 +1,9 @@
 {
   "name": "TTTDemo",
   "version": "0.1.0",
-  "summary": "A short description of TTTDemo.",
+  "summary": "How to create your first simple pod!!!",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TTTDemo",
+  "homepage": "https://github.com/coppynight/TTTDemo.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "XiaoKai": "xiaokai@rd.netease.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TTTDemo.git",
+    "git": "https://github.com/coppynight/TTTDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TTTDemo/Classes/**/*",
+  "source_files": "TTTDemo/Classes/**/*.{h,m}",
   "xcconfig": {
     "ENABLE_BITCODE": "NO"
   },
