@@ -7,7 +7,8 @@
 //
 
 #import "TTTViewController.h"
-#import <TTTDemo/MyDemoClass.h>
+//#import <TTTDemo/MyDemoClass.h>
+//#import <TTTDemo/WXApiObject.h>
 #import <TTTDemo/WXApi.h>
 
 @interface TTTViewController ()
@@ -23,13 +24,13 @@
 //    NSString *bundlePath = [[NSBundle bundleForClass:[MyDemoClass class]] pathForResource:@"TTTDemoUI" ofType:@"bundle"];
 //    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
 //    UIImage *image = [UIImage imageNamed:@"yingwu" inBundle:bundle compatibleWithTraitCollection:nil];
-    UIImage *image = [UIImage imageNamed:@"TTTDemoUI.bundle/yingwu"];
-    UIImageView *logo = [[UIImageView alloc] initWithImage:image];
-    [self.view addSubview:logo];
-    [logo sizeToFit];
-    logo.center = self.view.center;
+//    UIImage *image = [UIImage imageNamed:@"TTTDemoUI.bundle/yingwu"];
+//    UIImageView *logo = [[UIImageView alloc] initWithImage:image];
+//    [self.view addSubview:logo];
+//    [logo sizeToFit];
+//    logo.center = self.view.center;
     
-    [MyDemoClass printSomeThing];
+//    [MyDemoClass printSomeThing];
     
     if ([WXApi isWXAppInstalled]) {
         NSLog(@"haha");

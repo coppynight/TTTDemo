@@ -1,16 +1,16 @@
 PODS:
-  - TTTDemo (0.1.0)
+  - TTTDemo/WXSDK (0.2.0)
 
 DEPENDENCIES:
-  - TTTDemo (from `../`)
+  - TTTDemo/WXSDK (from `../`)
 
 EXTERNAL SOURCES:
   TTTDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TTTDemo: ee5c237c147b74c7e3992af34cc13591d5a36036
+  TTTDemo: 35342bb95dc5ad7bfadb4c40d4fd21afb689f5e6
 
-PODFILE CHECKSUM: 6d855fe5977d994dec9acc2594bdcafcab67c759
+PODFILE CHECKSUM: e157e6bb459a0774af3491d916111ccdc1ae29a6
 
 COCOAPODS: 1.0.0
