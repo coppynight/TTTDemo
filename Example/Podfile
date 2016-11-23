@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTTDemo_Example' do
+  pod 'TTTDemo', :path => '../'
+
+  target 'TTTDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
