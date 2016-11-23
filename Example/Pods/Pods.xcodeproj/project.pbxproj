@@ -10,45 +10,39 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>01E5EDC885F1BBF6F85DABE4205CA5CE</key>
+		<key>000EE206E3AB70F76712231238302F8B</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>64DA70DC1AB66C3647C280471FAD3671</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>yingwu@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>012EDA9075099291EB92B5BB85C2427C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9827A7F3418499A8532E5205CFC1A9C4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>02673321EFEEEF7A524171D41435948E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F0F9E062A1386DF2B7AE77F59C8A0BF3</string>
+				<string>9827A7F3418499A8532E5205CFC1A9C4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0788115A3B5CC7815C1837651F7B4F0E</key>
 		<dict>
@@ -60,6 +54,21 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-TTTDemo_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>07D8DB4F02B0176EC1C9C59CDF466FE7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E4E29B539B1574BEAC5A72D2ACE85E4B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TTTDemo</string>
+			<key>path</key>
+			<string>TTTDemo</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -147,6 +156,91 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>10062666F3F3D96A0EA38E0A849DD05B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>TTTDemo-TTTDemoUI</string>
+			<key>target</key>
+			<string>7875CC7BCDE61D1399E3D6075AA90312</string>
+			<key>targetProxy</key>
+			<string>1A176C9310BBF6E9D12A8B98F4FB974A</string>
+		</dict>
+		<key>12084A3CEDA550654A471285C0A416D9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F0F9E062A1386DF2B7AE77F59C8A0BF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>122DA2E5084A4393C29BE363C764795C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>34D729DCF67697A15D4B191B3CA3255C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12AE9EEFEB3CD0114D942C66FF96BCB2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5251C2DEE67FC131191005E7EBBA5E58</string>
+				<string>C99BDC235352631983CC7E46AB2667F8</string>
+				<string>B0D82E4510542F0A316535B5F214E2C0</string>
+				<string>ABC8944EEBDB931442AE97C3040E9CA2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TTTDemo</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1357780584EF2A570A5E7D32B2596215</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D477E5217F79F629F39FD6EAC951549D</string>
+			<key>remoteInfo</key>
+			<string>TTTDemo</string>
+		</dict>
+		<key>16856202FEEA96B7251911B1B740ABE8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5DF1E262D8D940F82742F0EBCE8DCE5B</string>
+				<string>6ABA97C780A83AB09B1A21F34F323748</string>
+				<string>C95BF1253A2B823251F934BBFA6BD3A8</string>
+				<string>1F33A7673761C63DCB9FAEF427314C91</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>190AB98B77FFF4335A158C3B195F9204</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -187,22 +281,89 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>1FD8053F575448E28F7679EAC25FBC3B</key>
+		<key>1A176C9310BBF6E9D12A8B98F4FB974A</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>8E6EADF74E4FAC9E194A74E3DC2B7D32</string>
-				<string>ADE168C06E277BB3801B73131BA59FF6</string>
-				<string>DC5D4B53B54432EBCB1E07F56BFCEB55</string>
-			</array>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7875CC7BCDE61D1399E3D6075AA90312</string>
+			<key>remoteInfo</key>
+			<string>TTTDemo-TTTDemoUI</string>
+		</dict>
+		<key>1F33A7673761C63DCB9FAEF427314C91</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Weixin</string>
+			<string>TTTDemoUI.bundle</string>
 			<key>path</key>
-			<string>Weixin</string>
+			<string>TTTDemoUI.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>1FBFAF535502E77BF27F74E67EF3A952</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WechatAuthSDK.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2389E4CD84F91A300A18CF7B35C247E4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>disclosure_open.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>24EE8499216C448FC3D4F7508EAA3100</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AF7E756FA226FE63B173DD95B51CB966</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CONFIGURATION_BUILD_DIR</key>
+				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTTDemo</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/TTTDemo/ResourceBundle-TTTDemoUI-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>TTTDemoUI</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>2AFA4507A025734946C10A5790FB7373</key>
 		<dict>
@@ -214,6 +375,23 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-TTTDemo_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D2D6DBF0B703A3D4B995B7C70C39BF3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1FBFAF535502E77BF27F74E67EF3A952</string>
+				<string>87973512FF28C5D32521BF7A03C39753</string>
+				<string>C596C847F368ECBADD12CCE65F66A67A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Weixin</string>
+			<key>path</key>
+			<string>Weixin</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -245,6 +423,42 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>3212963EE824BEB64FBAAE0376F83D33</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54D85350D08F6569512CA4CA18B463E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>34911A01BFCB1C71D63A650CFB487174</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9183FA999C36AC2237DE835232229C5B</string>
+				<string>D64A6D77E746265636506C266C7887F4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>34D729DCF67697A15D4B191B3CA3255C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>572E20687F5D2BDCCDD2803851C1E5D0</string>
+				<string>54D85350D08F6569512CA4CA18B463E5</string>
+				<string>F872D67D32A2D7FAF39001074B8D2811</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>394129511730D8E984B66915E9166706</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -258,38 +472,42 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
+		<key>41F427E2FB3306714EDA2FF41D13AC10</key>
 		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+				<string>3212963EE824BEB64FBAAE0376F83D33</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>429962A2FC8F7EC86A79879AFC98FB25</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TTTDemo-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3FB23AB929E9180ADE519BFB6E276E80</key>
+		<key>4379CD941247B718D27470D5D83D6F5C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>0788115A3B5CC7815C1837651F7B4F0E</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>47AA1A2919D2D322D0E17FD4C4EAAC09</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D420F339BEFA59EF0A117577C70EF918</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TTTDemo</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>TTTDemo</string>
+			<string>ResourceBundle-TTTDemoUI-Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -314,12 +532,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4BED4ED0E4ADB620F82041843C56925A</key>
+		<key>4A076EB07832951AAAAEA9DAB56D7C64</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>children</key>
+			<array>
+				<string>960248B90001D00B4D44A4BF5EB37E2A</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TTTDemo</string>
+			<key>path</key>
+			<string>TTTDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4D07347C934D9B4DE45A16C33D728D6F</key>
 		<dict>
@@ -334,6 +560,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>5251C2DEE67FC131191005E7EBBA5E58</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4A076EB07832951AAAAEA9DAB56D7C64</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>54D85350D08F6569512CA4CA18B463E5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
 		<key>55984A7DC0CD19DAE4B909CF19F12DD3</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -346,6 +598,33 @@
 			<string>Pods-TTTDemo_Example-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>55E2800412BF56546F4FD07E7878DC8D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8BC7DE7FE4FCCC64646233CA21955ACD</string>
+				<string>D96FDC976142DD7C33EFA7DEFD2852A2</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>572E20687F5D2BDCCDD2803851C1E5D0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreTelephony.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreTelephony.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>57578D0C8F027E2FBB097F7AE5D3B429</key>
 		<dict>
@@ -360,32 +639,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5C649CAEFFEE2ADF0244BB1D72DD466F</key>
+		<key>5DF1E262D8D940F82742F0EBCE8DCE5B</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>BFCC4315CF00C4F2B420530F532AD0C4</string>
-			</array>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>libPods-TTTDemo_Example.a</string>
+			<key>path</key>
+			<string>libPods-TTTDemo_Example.a</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>5F3D95094B1E43A16F618D230B2DD314</key>
+		<key>5F0FCC1FFCD426B676E8B4B4D10A9A65</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>5C649CAEFFEE2ADF0244BB1D72DD466F</string>
-				<string>47AA1A2919D2D322D0E17FD4C4EAAC09</string>
-			</array>
+			<key>fileRef</key>
+			<string>87973512FF28C5D32521BF7A03C39753</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WXSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>648E51F6EEA8249C3A0A499BC0519867</key>
 		<dict>
@@ -413,57 +694,86 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>68ECC6B09B07D7F1F6F3C7ED118F2683</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-TTTDemo_Tests.a</string>
-			<key>path</key>
-			<string>libPods-TTTDemo_Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6CFDB2D49447EB6382D93813DF91F009</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-TTTDemo_Example.a</string>
-			<key>path</key>
-			<string>libPods-TTTDemo_Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7C16F24546A0531EBF1A97833865911D</key>
+		<key>65EFA90E25D867D956845F7D4EC8ABAE</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array>
-				<string>3FB23AB929E9180ADE519BFB6E276E80</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>66C5ACBFBFEBE31FDB877281BF797DC2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F872D67D32A2D7FAF39001074B8D2811</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6ABA97C780A83AB09B1A21F34F323748</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-TTTDemo_Tests.a</string>
+			<key>path</key>
+			<string>libPods-TTTDemo_Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>75818C2C9AADD754C2A885ACE60A6BC6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>572E20687F5D2BDCCDD2803851C1E5D0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7634ADBADD1A2ABD891291A0BB77E34F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0788115A3B5CC7815C1837651F7B4F0E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7875CC7BCDE61D1399E3D6075AA90312</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>AA7F906A55DB2F6C40FD2D394D2B6A19</string>
+			<key>buildPhases</key>
+			<array>
+				<string>65EFA90E25D867D956845F7D4EC8ABAE</string>
+				<string>C0E38BC71A304E1931276CF4A80324D2</string>
+				<string>34911A01BFCB1C71D63A650CFB487174</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>TTTDemo-TTTDemoUI</string>
+			<key>productName</key>
+			<string>TTTDemo-TTTDemoUI</string>
+			<key>productReference</key>
+			<string>1F33A7673761C63DCB9FAEF427314C91</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>E6FBB383526193FA39351A1A9D0C516E</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>97E9842717EF65912B52B8416A9CF46C</string>
+				<string>EBCD9177EB5710BC269CB8E9B6D428DF</string>
+				<string>122DA2E5084A4393C29BE363C764795C</string>
+				<string>16856202FEEA96B7251911B1B740ABE8</string>
 				<string>31F0AED6D94438FBBAFCDCEF8A861DEF</string>
 			</array>
 			<key>isa</key>
@@ -491,9 +801,62 @@
 			<key>productName</key>
 			<string>Pods-TTTDemo_Tests</string>
 			<key>productReference</key>
-			<string>68ECC6B09B07D7F1F6F3C7ED118F2683</string>
+			<string>6ABA97C780A83AB09B1A21F34F323748</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>87973512FF28C5D32521BF7A03C39753</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WXApi.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8BC7DE7FE4FCCC64646233CA21955ACD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>64DA70DC1AB66C3647C280471FAD3671</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>8C2B0683EA12773D09CB8A2A8E3DA811</key>
 		<dict>
@@ -508,18 +871,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8E6EADF74E4FAC9E194A74E3DC2B7D32</key>
+		<key>8DB81E9E1B2111F2D4F3DCE11130168E</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WechatAuthSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>TTTDemo</string>
+			<key>target</key>
+			<string>D477E5217F79F629F39FD6EAC951549D</string>
+			<key>targetProxy</key>
+			<string>1357780584EF2A570A5E7D32B2596215</string>
 		</dict>
 		<key>8E7BD9DC2D457315CAE457C126F69053</key>
 		<dict>
@@ -547,6 +908,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>908E371C7641CEB3541FC46E9DB46C4A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TTTDemo-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9183FA999C36AC2237DE835232229C5B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2389E4CD84F91A300A18CF7B35C247E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -566,19 +947,102 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>97E9842717EF65912B52B8416A9CF46C</key>
+		<key>960248B90001D00B4D44A4BF5EB37E2A</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6CFDB2D49447EB6382D93813DF91F009</string>
-				<string>68ECC6B09B07D7F1F6F3C7ED118F2683</string>
+				<string>2389E4CD84F91A300A18CF7B35C247E4</string>
+				<string>000EE206E3AB70F76712231238302F8B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>Assets</string>
+			<key>path</key>
+			<string>Assets</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96EA180421B8160005032F50F10BEF72</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1FBFAF535502E77BF27F74E67EF3A952</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9827A7F3418499A8532E5205CFC1A9C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MyDemoClass.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A108CCF5ACF0FF60AAF66E8F9C4DE58</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9BE361917520D326A2626FFF69CD7CBC</string>
+				<string>FE6112D92DFB4E516B853710023EE2D9</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9BE361917520D326A2626FFF69CD7CBC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AF7E756FA226FE63B173DD95B51CB966</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TTTDemo/TTTDemo-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>9D4EFA02595976BD623D47BF422AFFFA</key>
 		<dict>
@@ -604,28 +1068,22 @@
 		<key>A45E7963C40266EDD2C25693FC14B77A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<string>54D85350D08F6569512CA4CA18B463E5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>ADE168C06E277BB3801B73131BA59FF6</key>
+		<key>A618A1CA6D09A5E70A655AB90FEFB098</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>54D85350D08F6569512CA4CA18B463E5</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WXApi.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<key>A62FEC44CC9C4A1834E17153FA79230A</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
+				<string>EDCFE0DC255F0872B613D73EB16A8718</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -634,48 +1092,158 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BDA9F285B19B5247E6A477D35D7B1D81</key>
+		<key>AA7F906A55DB2F6C40FD2D394D2B6A19</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DD90253B9E68BFA584FE028F0A6657AB</string>
+				<string>24EE8499216C448FC3D4F7508EAA3100</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>ABC8944EEBDB931442AE97C3040E9CA2</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>5F3D95094B1E43A16F618D230B2DD314</string>
+				<string>A62FEC44CC9C4A1834E17153FA79230A</string>
+				<string>07D8DB4F02B0176EC1C9C59CDF466FE7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>TTTDemo</string>
-			<key>path</key>
-			<string>../..</string>
+			<string>WXSDK</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BF572DD24F47C3419F536E8DEDCD8557</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4BED4ED0E4ADB620F82041843C56925A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BFCC4315CF00C4F2B420530F532AD0C4</key>
+		<key>AF7E756FA226FE63B173DD95B51CB966</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libWeChatSDK.a</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>TTTDemo/Classes/Weixin/libWeChatSDK.a</string>
+			<string>TTTDemo.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0D82E4510542F0A316535B5F214E2C0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>02673321EFEEEF7A524171D41435948E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TTTDemo</string>
+			<key>path</key>
+			<string>TTTDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1EB6139A31FD5F8771947C64AF01534</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>55E2800412BF56546F4FD07E7878DC8D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D73AA6658D6C140A59369F21D1816638</string>
+				<string>41F427E2FB3306714EDA2FF41D13AC10</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>8DB81E9E1B2111F2D4F3DCE11130168E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-TTTDemo_Example</string>
+			<key>productName</key>
+			<string>Pods-TTTDemo_Example</string>
+			<key>productReference</key>
+			<string>5DF1E262D8D940F82742F0EBCE8DCE5B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>C0E38BC71A304E1931276CF4A80324D2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C596C847F368ECBADD12CCE65F66A67A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WXApiObject.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C95BF1253A2B823251F934BBFA6BD3A8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libTTTDemo.a</string>
+			<key>path</key>
+			<string>libTTTDemo.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C99BDC235352631983CC7E46AB2667F8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4379CD941247B718D27470D5D83D6F5C</string>
+				<string>AF7E756FA226FE63B173DD95B51CB966</string>
+				<string>908E371C7641CEB3541FC46E9DB46C4A</string>
+				<string>429962A2FC8F7EC86A79879AFC98FB25</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/TTTDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBD55A8A5E15306931AC7C285D531DF7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C596C847F368ECBADD12CCE65F66A67A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>CCC7203ED49A3A56122D9D53CB9B1C7F</key>
 		<dict>
@@ -696,19 +1264,6 @@
 			<string>8F67162ADA7F90A073F3D51E26F22758</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>D3E3D092A3FF7311A98E44BBA36FFD12</key>
 		<dict>
@@ -814,7 +1369,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>97E9842717EF65912B52B8416A9CF46C</string>
+			<string>16856202FEEA96B7251911B1B740ABE8</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -823,24 +1378,45 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>E1F2BD7AAF9D5E7B4B5806A8EC3A9020</string>
+				<string>B1EB6139A31FD5F8771947C64AF01534</string>
 				<string>829DBA22F005A501CAC71922CF3C6EDE</string>
+				<string>D477E5217F79F629F39FD6EAC951549D</string>
+				<string>7875CC7BCDE61D1399E3D6075AA90312</string>
 			</array>
 		</dict>
-		<key>D420F339BEFA59EF0A117577C70EF918</key>
+		<key>D477E5217F79F629F39FD6EAC951549D</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurationList</key>
+			<string>9A108CCF5ACF0FF60AAF66E8F9C4DE58</string>
+			<key>buildPhases</key>
 			<array>
-				<string>1FD8053F575448E28F7679EAC25FBC3B</string>
+				<string>DDAEBA07FD53BE5F08AAF4D7B5AC5735</string>
+				<string>E88924FF6D3717AE73FAFE6DF0A74E50</string>
+				<string>DDC68EC05CA867EF95D1D0B8CC542638</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>10062666F3F3D96A0EA38E0A849DD05B</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>TTTDemo</string>
+			<key>productName</key>
+			<string>TTTDemo</string>
+			<key>productReference</key>
+			<string>C95BF1253A2B823251F934BBFA6BD3A8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D64A6D77E746265636506C266C7887F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>000EE206E3AB70F76712231238302F8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D6DFCBACCC01D94B5961E105529B4968</key>
 		<dict>
@@ -855,98 +1431,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DC5D4B53B54432EBCB1E07F56BFCEB55</key>
+		<key>D73AA6658D6C140A59369F21D1816638</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WXApiObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1F2BD7AAF9D5E7B4B5806A8EC3A9020</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E3EAA598ECAFC2FBA238715EDC7359FB</string>
-			<key>buildPhases</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>7C16F24546A0531EBF1A97833865911D</string>
-				<string>BF572DD24F47C3419F536E8DEDCD8557</string>
+				<string>7634ADBADD1A2ABD891291A0BB77E34F</string>
 			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TTTDemo_Example</string>
-			<key>productName</key>
-			<string>Pods-TTTDemo_Example</string>
-			<key>productReference</key>
-			<string>6CFDB2D49447EB6382D93813DF91F009</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>E3EAA598ECAFC2FBA238715EDC7359FB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>01E5EDC885F1BBF6F85DABE4205CA5CE</string>
-				<string>F3B1BEDD945A8F94383D0A9B0FAB0C50</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>E6FBB383526193FA39351A1A9D0C516E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BDA9F285B19B5247E6A477D35D7B1D81</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8805D01B9738A93CB10E16E1A57D31F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-TTTDemo_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F14AA756226678FB5111C1133C7FC8F9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>190AB98B77FFF4335A158C3B195F9204</string>
-				<string>F6F84DE9C06F64FFDD751EFA1BE922B3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F3B1BEDD945A8F94383D0A9B0FAB0C50</key>
+		<key>D96FDC976142DD7C33EFA7DEFD2852A2</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>57578D0C8F027E2FBB097F7AE5D3B429</string>
@@ -986,6 +1484,173 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>DD90253B9E68BFA584FE028F0A6657AB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AF7E756FA226FE63B173DD95B51CB966</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CONFIGURATION_BUILD_DIR</key>
+				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTTDemo</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/TTTDemo/ResourceBundle-TTTDemoUI-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>TTTDemoUI</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>DDAEBA07FD53BE5F08AAF4D7B5AC5735</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>012EDA9075099291EB92B5BB85C2427C</string>
+				<string>F03D49169B0C0F0E61804D8FF68A91DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DDC68EC05CA867EF95D1D0B8CC542638</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>12084A3CEDA550654A471285C0A416D9</string>
+				<string>96EA180421B8160005032F50F10BEF72</string>
+				<string>5F0FCC1FFCD426B676E8B4B4D10A9A65</string>
+				<string>CBD55A8A5E15306931AC7C285D531DF7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E4E29B539B1574BEAC5A72D2ACE85E4B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2D2D6DBF0B703A3D4B995B7C70C39BF3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8805D01B9738A93CB10E16E1A57D31F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TTTDemo_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E88924FF6D3717AE73FAFE6DF0A74E50</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>75818C2C9AADD754C2A885ACE60A6BC6</string>
+				<string>A618A1CA6D09A5E70A655AB90FEFB098</string>
+				<string>66C5ACBFBFEBE31FDB877281BF797DC2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EBCD9177EB5710BC269CB8E9B6D428DF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>12AE9EEFEB3CD0114D942C66FF96BCB2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EDCFE0DC255F0872B613D73EB16A8718</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libWeChatSDK.a</string>
+			<key>path</key>
+			<string>TTTDemo/Classes/Weixin/libWeChatSDK.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F03D49169B0C0F0E61804D8FF68A91DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>908E371C7641CEB3541FC46E9DB46C4A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F0F9E062A1386DF2B7AE77F59C8A0BF3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MyDemoClass.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F14AA756226678FB5111C1133C7FC8F9</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>190AB98B77FFF4335A158C3B195F9204</string>
+				<string>F6F84DE9C06F64FFDD751EFA1BE922B3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
 		<key>F6F84DE9C06F64FFDD751EFA1BE922B3</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -1016,6 +1681,59 @@
 				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F872D67D32A2D7FAF39001074B8D2811</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>FE6112D92DFB4E516B853710023EE2D9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AF7E756FA226FE63B173DD95B51CB966</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TTTDemo/TTTDemo-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>

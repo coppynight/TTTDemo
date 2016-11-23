@@ -1,7 +1,7 @@
 #use_frameworks!
 
 target 'TTTDemo_Example' do
-  pod 'TTTDemo/WXSDK', :path => '../'
+  pod 'TTTDemo', :path => '../'
 
   target 'TTTDemo_Tests' do
     inherit! :search_paths
