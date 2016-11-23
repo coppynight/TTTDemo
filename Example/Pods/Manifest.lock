@@ -1,0 +1,16 @@
+PODS:
+  - TTTDemo (0.1.0)
+
+DEPENDENCIES:
+  - TTTDemo (from `../`)
+
+EXTERNAL SOURCES:
+  TTTDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTTDemo: c79607eb64fcb23e78ee143ece16da5331dbd5b7
+
+PODFILE CHECKSUM: 6d855fe5977d994dec9acc2594bdcafcab67c759
+
+COCOAPODS: 1.0.0

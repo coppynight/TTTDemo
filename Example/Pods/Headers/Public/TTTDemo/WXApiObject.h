@@ -1,0 +1,1 @@
+../../../../../TTTDemo/Classes/Weixin/WXApiObject.h
